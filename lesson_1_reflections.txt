@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    you see imeediately the lines that changed and so you only have to look for the bug in these lines.
+    diff -u command in Linux: 
+	changes are better readable than as with FC command in Windows, because you see the lines that changed faster
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    find bugs faster by comparing to previous versions
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros:
+    - you only commit reasonable versions
+    - you have commit messages
+
+    cons:
+    - you forget to commit and then your commits become too big
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because files logically belong together. If you change, add or deleate one feature you often have to add code in several files. Only one commit with one commit message is better, if you want to revert to the old version, you find this old version faster and can revert by one click.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows all commits with id, author, date and commit message. Newest is at the top and be scrolling down I get older versions.
+
+    To compare 2 versions I type "git diff id_version_1 id_version_2". I see the diffs by the lines with minus or plus sign (red or green)
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If I produce a bug, I can always revert to the version, where there was no bug. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    for version controll of self-developped programs like android apps etc.
