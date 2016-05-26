@@ -30,4 +30,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It's easier for experimental use. If your experiments do not work, you don't want to have it in the master. You can give names to your branches to find them easily.
+    The benefit of directly make changes in the master is, that you don't have to merge. But if you want to get back to the original, it's harder.
