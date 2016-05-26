@@ -14,7 +14,7 @@ use one instead of another?
 
     - fork: copy a repository from github to your own github repository to use and change it to your own needs without wanting to push it on the original repository.
     - clone: copy a repository (e.g. from github to your own computer) to start develloping on it. You may want to push your changes to the original repository.
-    - branch: save a version of your code for experiments or to develop features unter a name.
+    - branch: save a version of your code for experiments or to develop features. You may want to push your changes to the master. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
